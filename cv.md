@@ -51,6 +51,12 @@ I'm a beginner front-end web developer. At the moment I don't have much experien
 
 ***
 
+## Learning projects:
+
+* https://github.com/IvanSpN/rsschool-cv.git
+
+***
+
 ## Languages:
 Russian - Nativ
 
