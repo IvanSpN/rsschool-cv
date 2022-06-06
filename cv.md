@@ -17,3 +17,15 @@ _Contact information:_
 **Discord:** Isaak#8591(@IvanSpN)
 
 ***
+
+## Brief information about yourself: 
+
+I'm a beginner front-end web developer. At the moment I don't have much experience and skills, but I have a great desire to learn. I am very motivated! Courses from the RS School are a real gift of fate for me, it is very difficult to study, but at the same time very interesting. I will do my best to become a top notch front-end developer.
+
+***
+
+## Skills:
+* HTML5
+* CSS3
+* GIT, GitHub
+* VS Code
