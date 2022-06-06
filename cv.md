@@ -5,7 +5,7 @@
 
 _Contact information:_
 
-**Phone:** +7 913 432 1122 
+**Phone:** +7 913 432 11 22 
 
 **E-mail:** ivanspn67@gmail.com
 
