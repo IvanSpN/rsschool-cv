@@ -29,3 +29,29 @@ I'm a beginner front-end web developer. At the moment I don't have much experien
 * CSS3
 * GIT, GitHub
 * VS Code
+
+***
+
+## Code example:
+&lt;!DOCTYPE HTML&gt;
+&lt;HTML&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt; Hello world &lt;/h1&gt;
+
+&lt;/body&gt;
+
+&lt;/HTML&gt;
+
+***
+
+## Courses:
+* RS School
+
+***
+
+## Languages:
+Russian - Nativ
+
+English - A1 (For my level, I can read and understand the text quite well)
