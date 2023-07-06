@@ -68,6 +68,6 @@ function past(h, m, s){
 
 ## Languages:
 
-Russian - Nativ
+Russian - nativ
 
 English - A1 
