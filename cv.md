@@ -70,5 +70,4 @@ function past(h, m, s){
 
 Russian - Nativ
 
-English - A1 (For my level, I can read and understand the text quite well)
-
+English - A1 
