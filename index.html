@@ -12,60 +12,110 @@
     <div class="wrapper">
         <header class="header">
             <div class="header__container">
-                <nav class="header-menu">
-                    <ul class="menu-list">
-                        <li class="menu-item">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
                             <a href="#about" class="menu-link">About</a>
                         </li>
-                        <li class="menu-item">
-                            <a href="#skill's" class="menu-link">Skill's</a>
+                        <li class="menu__item">
+                            <a href="#skills" class="menu-link">Skill's</a>
                         </li>
-                        <li class="menu-item">
+                        <li class="menu__item">
                             <a href="#code" class="menu-link">Code</a>
                         </li>
-                        <li class="menu-item">
+                        <li class="menu__item">
                             <a href="#courses" class="menu-link">Courses</a>
                         </li>
-                        <li class="menu-item">
+                        <li class="menu__item">
                             <a href="#languages" class="menu-link">Languages</a>
                         </li>
-                        <li class="menu-item">
-                            <a href="#contact's" class="menu-link">Contact's</a>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu-link">Contact's</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main>
-            <img src="./Foto.jpg" alt="Foto" class="foto" width="350" height="450">
-            <h1 class="title">Skidanuk Ivan</h1>
-            <p>web developer</p>
-            <section class="about" id="about">
+        <main class="main__container">
+            <div class="column-left">
+                <img class="column-left__foto" src="./Foto.jpg" alt="Foto" width="350" height="450">
+                <h1 class="column-left__title">Skidanuk Ivan</h1>
+                <h2 class="column-left__subtitle">web developer</h2>
+            </div>
+            <div class="column-right">
+                <section class="about" id="about">
+                    <h2 class="about__title">About</h2>
+                    <p class="about__subtitle">I'm a beginner front-end web developer. At the moment I don't have much
+                        experience and skills, but I have a great desire to learn. I am very motivated! Courses from the
+                        RS
+                        School are a real gift of fate for me, it is very difficult to study, but at the same time very
+                        interesting. I will do my best to become a top notch front-end developer!</p>
+                </section>
+                <section class="skills" id="skill's">
+                    <h2 class="skills__title">Skill's</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5</li>
+                        <li class="skills__item">CSS3</li>
+                        <li class="skills__item">GIT, GitHub</li>
+                        <li class="skills__item">VS Code</li>
+                        <li class="skills__item">JavaScript</li>
+                    </ul>
 
-            </section>
-            <section class="skill's" id="skill's">
 
-            </section>
-            <section class="code" id="code">
 
-            </section>
-            <section class="courses" id="courses">
+                </section>
+                <section class="code" id="code">
+                    <h2 class="code__title">Code</h2>
+                    <code class="code__example">
+                        function past(h, m, s){
+                        let milisecInChas;
+                        milisecInChas = h * 3600000;
 
-            </section>
-            <section class="languages" id="languages">
-            </section>
-            <section class="contact's" id="contact's">
+                        let milisecInMin;
+                        milisecInMin = (m * 60) * 1000;
 
-            </section>
+                        let milisecInSec;
+                        milisecInSec = s * 1000;
 
+                        let result;
+                        result = milisecInChas + milisecInMin + milisecInSec;
+
+                        if (0 <= h <=23 && 0 <=m <=59 && 0 <=s <=59){ return result } } </code>
+
+
+                </section>
+                <section class="courses" id="courses">
+                    <h2 class="courses__title">Courses</h2>
+                    <p class="courses__subtitle">RS School</p>
+
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="languages__title">English level and education</h2>
+                    <p class="languages__subtitle">English level - A1</p>
+                    <p class="languages__subtitle">Education - Higher</p>
+                </section>
+                <section class="contacts" id="contact's">
+                    <h2 class="contacts__title">Contact's</h2>
+                    <p class="contacts__subtitle">Contact information:
+                    <ul class="contacts__list">
+                        <li class="contacts__item">Phone: +7 913 432 1122</li>
+                        <li class="contacts__item">E-mail: ivanspn67@gmail.com</li>
+                        <li class="contacts__item">Telegram: Iissaak</li>
+                        <li class="contacts__item">GitHub: <a href="https://github.com/IvanSpN">IvanSpn</a>IvanSpn</li>
+                        <li class="contacts__item">Discord: Isaak(@IvanSpN)</li>
+                    </ul>
+                    </p>
+
+                </section>
+            </div>
         </main>
     </div>
-    <footer class="footer">
-        <p class="year">2023</p>
-        <a class="logo-course" href="https://rs.school/js/">
+    <footer class="footer__container">
+        <p class="footer__year">2023</p>
+        <a class="footer__logo-course" href="https://rs.school/js/">
             <img src="./rs_school_js.svg" alt="Logo course" width="100" height="150">
         </a>
-        <a class="logo-github" href="https://github.com/IvanSpN"><img src="./Logo github.png" alt="Logo github"
+        <a class="footer__logo-github" href="https://github.com/IvanSpN"><img src="./Logo github.png" alt="Logo github"
                 width="100" height="150">
         </a>
     </footer>
