@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#about" class="menu-link">about</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#skills" class="menu-link">skill's</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#code" class="menu-link">code</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#courses" class="menu-link">courses</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#languages" class="menu-link">languages and education</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu-link">contact's</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#project" class="menu-link">project</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main__container">
+            <div class="column-left">
+                <img class="column-left__foto" src="./Foto.jpg" alt="Foto" width="350" height="450">
+                <div class="column-left__text">
+                    <h1 class="column-left__title title">Skidanuk Ivan</h1>
+                    <h2 class="column-left__subtitle">web developer</h2>
+                </div>
+
+            </div>
+            <div class="column-right">
+                <section class="about" id="about">
+                    <h2 class="about__title title">About</h2>
+                    <p class="about__subtitle">I'm a beginner front-end web developer. At the moment I don't have much
+                        experience and skills, but I have a great desire to learn. I am very motivated! Courses from the
+                        RS
+                        School are a real gift of fate for me, it is very difficult to study, but at the same time very
+                        interesting. I will do my best to become a top notch front-end developer!</p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="skills__title title">Skill's</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5</li>
+                        <li class="skills__item">CSS3</li>
+                        <li class="skills__item">GIT, GitHub</li>
+                        <li class="skills__item">VS Code</li>
+                        <li class="skills__item">JavaScript</li>
+                    </ul>
+
+
+
+                </section>
+                <section class="code" id="code">
+                    <h2 class="code__title title">Code</h2>
+                    <code class="code__example">
+                        function past(h, m, s){<br>
+
+                        let milisecInChas;<br>
+
+                        milisecInChas = h * 3600000;<br>
+
+                        let milisecInMin;<br>
+                        milisecInMin = (m * 60) * 1000;<br>
+
+                        let milisecInSec;<br>
+
+                        milisecInSec = s * 1000;<br>
+
+                        let result;<br>
+                        result = milisecInChas + milisecInMin + milisecInSec;<br>
+
+                        if (0 &lt;= h &lt;= 23 && 0 &lt;= m &lt;= 59 && 0 &lt;= s &lt;= 59){ return result } } </code>
+                </section>
+                <section class="project" id="project">
+                    <h2 class="project__title title">Project</h2>
+                    <p class="project__subtitle"><a
+                            href="https://github.com/IvanSpN/rsschool-cv/blob/gh-pages/cv.md">CV</a></p>
+                </section>
+                <section class="courses" id="courses">
+                    <h2 class="courses__title title">Courses</h2>
+                    <p class="courses__subtitle">RS School</p>
+
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="languages__title title">English level and education</h2>
+                    <p class="languages__subtitle">English level - A1</p>
+                    <p class="languages__subtitle">Education - Higher</p>
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts__title title">Contact's</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">Phone: +7 913 432 1122</li>
+                        <li class="contacts__item">E-mail: ivanspn67@gmail.com</li>
+                        <li class="contacts__item">Telegram: Iissaak</li>
+                        <li class="contacts__item">GitHub: <a href="https://github.com/IvanSpN">IvanSpn</a></li>
+                        <li class="contacts__item">Discord: Isaak(@IvanSpN)</li>
+                    </ul>
+
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer class="footer__container">
+        <a class="footer__logo-course" href="https://rs.school/js/">
+            <img src="rs_school_js.svg" alt="Logo course" width="100" height="100">
+        </a>
+        <p class="footer__year title">2023</p>
+        <a class="footer__logo-github" href="https://github.com/IvanSpN"><img src="Logo-github.png" alt="Logo github"
+                width="70" height="70">
+        </a>
+    </footer>
+</body>
+
+</html>
